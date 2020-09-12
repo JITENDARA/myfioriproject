@@ -1,0 +1,10 @@
+<core:view controllerName="hp.controller.empty" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form">
+<Page title="Initial Page">	
+<content>	
+	
+</content>	
+<footer>
+	<Toolbar />
+</footer>
+</Page>	
+</core:view>	

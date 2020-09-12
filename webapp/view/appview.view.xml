@@ -1,0 +1,6 @@
+<core:view controllerName="hp.controller.appview" xmlns="sap.m." xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form" >
+<SplitApp id="MyApp">	
+	
+	
+</SplitApp>	
+</core:view>	

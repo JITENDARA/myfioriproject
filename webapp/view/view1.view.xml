@@ -1,0 +1,17 @@
+<core:view controllerName="hp.controller.view1" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form">
+<Page title="{i18n>kw1}">	
+	<content>
+	<SearchField search="onSearch" liveChange="onLive"/>	
+	<List id="idList" items="{/fruits}" itemPress="onPress">
+	<items>
+	<ObjectListItem intro="{name}" title="{benefit}" icon="{photo}" number="{price}" numberUnit="{unit}" type="Navigation" />
+	
+	
+	</items>
+	</List>
+	</content>
+	<footer>
+	<Toolbar />
+</footer>
+</Page>	
+</core:view>	
