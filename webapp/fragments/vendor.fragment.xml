@@ -1,0 +1,58 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form" xmlns:table="sap.ui.table">
+	<table:Table rows="{/suppliers}" visibleRowCount="5">
+		<table:columns>
+			<table:Column>
+				<table:label>
+					<Label text="Supplier Name"/>
+				</table:label>
+				<table:template>
+					<Text text="{name}"/>
+				</table:template>
+			</table:Column>
+			<table:Column>
+				<table:label>
+					<Label text="city"/>
+				</table:label>
+				<table:template>
+					<Text text="{city}"/>
+				</table:template>
+			</table:Column>
+			<table:Column>
+				<table:label>
+					<Label text="sinceWhen"/>
+				</table:label>
+				<table:template>
+					<Text text="{sinceWhen}"/></table:template>
+			</table:Column>
+			<table:Column>
+				<table:label>
+					<Label text="country"/>
+				</table:label>
+				<table:template>
+					<Text text="{country}"/></table:template>
+			</table:Column>
+			<table:Column>
+				<table:label>
+					<Label text="contactPerson"/>
+				</table:label>
+				<table:template>
+					<Text text="{contactPerson}"/></table:template>
+			</table:Column>
+			<table:Column>
+				<table:label>
+					<Label text="operatingHours"/>
+				</table:label>
+				<table:template>
+					<Text text="{operatingHours}"/>
+					</table:template>
+			</table:Column>
+			<table:Column>
+				<table:label>
+					<Label text="website(if any"/>
+				</table:label>
+				<table:template>
+					<Text text="{website(if any)}"/></table:template>
+			</table:Column>
+		</table:columns>
+	</table:Table>
+</core:FragmentDefinition>

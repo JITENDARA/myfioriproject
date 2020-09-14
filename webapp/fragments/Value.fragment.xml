@@ -1,0 +1,5 @@
+<core:FragmentDefinition  xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form">
+<SelectDialog title="Fruits Name" items="{/fruits}" confirm="onConfirm">	
+	<StandardListItem info="{benefit}" title="{name}" icon="{photo}" />
+</SelectDialog>
+</core:FragmentDefinition>	

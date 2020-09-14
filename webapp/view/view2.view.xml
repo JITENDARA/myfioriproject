@@ -9,8 +9,12 @@
 		</content>
 		<IconTabBar>
 			<items>
-				<IconTabFilter text="Products" icon="sap-icon://product"></IconTabFilter>
-				<IconTabFilter text="Vendor" icon="sap-icon://customer-and-supplier"></IconTabFilter>
+				<IconTabFilter text="Products" icon="sap-icon://product">
+				<core:Fragment fragmentName="hp.fragments.products" type="XML"/>	
+				</IconTabFilter>
+				<IconTabFilter text="Vendor" icon="sap-icon://customer-and-supplier">
+				<core:Fragment fragmentName="hp.fragments.vendor" type="XML"/>	
+				</IconTabFilter>
 				<IconTabFilter text="Supplier" icon="sap-icon://supplier"></IconTabFilter>
 			</items>
 		</IconTabBar>
