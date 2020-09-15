@@ -3,6 +3,8 @@ sap.ui.define(["hp/controller/basecontroller"],
         return oController.extend("hp.controller.view2",{
         oInput:null,
         oValue:null,
+        oHelp : null,
+        oVal : null,
         onInit : function(){
         	
         },
@@ -22,6 +24,15 @@ sap.ui.define(["hp/controller/basecontroller"],
        	// var oVal = sap.ui.getCore().byId(oInpId);
        	// oVal.setValue(oConfirm.setTitle());
        	
+       },
+       onHelp : function(oEvent){
+       	this.oHelp = oEvent.getSource().getId();
+       	if (this.oVal === null) {
+       	this.oVal = new sap.ui.model.xmlfragment("hp.fragment.popup",this);
+       	this.oVal.open();	
+       		
+       		
+       	}
        }
         });	
         });
